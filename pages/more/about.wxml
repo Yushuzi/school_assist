@@ -1,0 +1,37 @@
+<!--about.wxml-->
+<view class="container">
+  <view class="header">
+    <view class="black-cover"></view>
+    <image class="logo" src="/images/more/logo.png"></image>
+    <image class="title" src="/images/more/title.png"></image>
+  </view>
+  <view class="content">
+    <view class="version">
+      <view class="version-title">
+        <text class="title-name">校园助手</text>
+        <text class="version-text">空前绝后版本</text>
+      </view>
+      <view bindtap="toggleLog">
+        <text class="version-log-link" wx:if="{{!showLog}}">更新日志</text> 
+        <text class="version-log-link" wx:else>简介</text> 
+      </view>
+    </view>
+    <view class="describe" wx:if="{{!showLog}}">
+        <text class="desc-title">简介</text>
+        <view class="desc-list">
+          <text class="desc-list-item">官网：https://www.yuhsuzi.xin</text>
+        </view>
+        <text class="desc-content">校园助手是由2503宿舍研发团队进行开发的一站式校园服务的微信小程序</text>
+        <text class="desc-content">校园助手是碎片式信息一体化校园移动门户，适用于学生和教师，集课表、成绩、考试、空教室、学生、一卡通、借阅、学费、电费、报修、公告等各功能于一身。现在只实现部分功能,后续有空会补充。</text>
+        <text class="desc-content">校园助手，您值得应有！</text>
+    </view>
+  </view>
+  <view class="footer">
+    <view class="footer-lanshan">
+        <image src="/images/more/lanshan.png"></image>
+        <text>2503宿舍研发团队</text>
+    </view>
+    <text>未经过本团队授权,擅自他用,违者必究,绝不姑息！</text>
+    <text>Copyright @ 2018 All Rights Reserved</text>
+  </view>
+</view>
