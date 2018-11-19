@@ -1,1 +1,18 @@
 /* pages/core/xl/xl.wxss */
+.img{
+  width: 300px;
+  height: 25px;
+  padding-top: 7px;
+  margin-left: 50px;
+} 
+.ic{
+  /* display: flex; */
+  flex-direction: row;
+}
+.cname{
+  text-align: center;
+}
+.first {
+  height: 500px;
+  margin-left: 60px;
+}

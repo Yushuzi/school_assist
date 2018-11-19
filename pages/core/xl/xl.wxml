@@ -1,2 +1,11 @@
-<!--pages/core/xl/xl.wxml-->
-<text>pages/core/xl/xl.wxml</text>
+ <view class='ic'>
+    <image class="img" src='../../../images/core/xl/line.png'></image>
+    <view class="cname">**第一学期**</view>
+  </view>
+   <view class='pic'>
+    <image class="first" src='../../../images/core/xl/first.png'></image>
+    <view class="cname">**第二学期**</view>
+  </view>
+  <view class='pic'>
+    <image class="first" src='../../../images/core/xl/second.png'></image>
+  </view>

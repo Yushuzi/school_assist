@@ -7,7 +7,7 @@ Page({
     core: [
       { id: 'kb', name: '课表查询', disabled: false, teacher_disabled: false },
       { id: 'cj', name: '成绩查询', disabled: false, teacher_disabled: true },
-      { id: 'news', name: '校内新闻', disabled: false, teacher_disabled: false },
+      { id: 'news', name: '新闻资讯', disabled: false, teacher_disabled: false },
       { id: 'xl', name: '校历', disabled: false, teacher_disabled: false },
       { id: 'swzl', name: '失物招领', disabled: false, teacher_disabled: true },
     ],
